@@ -3,5 +3,6 @@ import courses from "./courses.js";
 import enrollments from "./enrollments.js";
 import grades from "./grades.js";
 import modules from "./modules.js";
+import quizzes from "./quizzes.js";
 import users from "./users.js";
-export default { courses, modules, assignments, users, grades, enrollments };
+export default { courses, modules, assignments, users, grades, quizzes, enrollments };
