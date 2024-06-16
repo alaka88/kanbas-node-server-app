@@ -37,6 +37,7 @@ const sessionOptions = {
   app.use(
     session(sessionOptions)
   );  
+
 app.use(express.json());
 UserRoutes(app);
 CourseRoutes(app);

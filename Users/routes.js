@@ -25,7 +25,7 @@ const findAllUsers = async (req, res) => {
     res.json(users);
     return;
     };
-    app.get("/api/users", findAllUsers);
+
 const findUserById = async (req, res) => { 
     const user = await dao.findUserById(req.params.userId);
     res.json(user);
@@ -77,4 +77,4 @@ app.post("/api/users/signup", signup);
 app.post("/api/users/signin", signin);
 app.post("/api/users/signout", signout);
 app.post("/api/users/profile", profile);
-}
+}  
