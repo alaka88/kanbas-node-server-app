@@ -1,0 +1,84 @@
+[
+
+    {
+        "course": "RS101",
+        "title": "Introduction to Rocket Propulsion",
+        "available": "2024-06-01",
+        "until": "2024-06-30",
+        "due": "2024-06-25",
+        "points": 100,
+        "questions": 10
+    },
+    {
+        "course": "RS101",
+        "title": "Fundamentals of Propulsion Theory",
+        "available": "2024-06-10",
+        "until": "2024-07-10",
+        "due": "2024-07-05",
+        "points": 80,
+        "questions": 8
+    },
+    {
+        "course": "RS101",
+        "title": "Rocket Engine Types",
+        "available": "2024-06-15",
+        "until": "2024-07-15",
+        "due": "2024-07-10",
+        "points": 90,
+        "questions": 9
+    },
+    {
+        "course": "RS102",
+        "title": "Basic Principles of Aerodynamics",
+        "available": "2024-06-20",
+        "until": "2024-07-20",
+        "due": "2024-07-15",
+        "points": 85,
+        "questions": 8
+    },
+    {
+        "course": "RS102",
+        "title": "Airflow and Airfoil Design",
+        "available": "2024-06-25",
+        "until": "2024-07-25",
+        "due": "2024-07-20",
+        "points": 70,
+        "questions": 7
+    },
+    {
+        "course": "RS102",
+        "title": "Lift and Drag Forces",
+        "available": "2024-07-01",
+        "until": "2024-08-01",
+        "due": "2024-07-28",
+        "points": 95,
+        "questions": 10
+    },
+    {
+        "course": "RS103",
+        "title": "Spacecraft Structural Design",
+        "available": "2024-06-05",
+        "until": "2024-07-05",
+        "due": "2024-06-30",
+        "points": 80,
+        "questions": 8
+    },
+    {
+        "course": "RS103",
+        "title": "Propulsion Systems for Spacecraft",
+        "available": "2024-06-10",
+        "until": "2024-07-10",
+        "due": "2024-07-05",
+        "points": 85,
+        "questions": 9
+    },
+    {
+        "course": "RS103",
+        "title": "Thermal Control in Spacecraft",
+        "available": "2024-06-15",
+        "until": "2024-07-15",
+        "due": "2024-07-10",
+        "points": 90,
+        "questions": 10
+    }
+]
