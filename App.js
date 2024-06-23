@@ -4,10 +4,13 @@ import express from 'express';
 import session from "express-session";
 import mongoose from "mongoose";
 import Hello from "./Hello.js";
+import AnswersRoutes from "./Kanbas/Answers/routes.js";
 import AssignmentRoutes from "./Kanbas/Assignments/routes.js";
 import CourseRoutes from "./Kanbas/Courses/routes.js";
+import EnrollCourseRoutes from "./Kanbas/EnrollCourses/routes.js";
 import ModuleRoutes from "./Kanbas/Modules/routes.js";
-import QuizRoutes from "./Kanbas/Quizzes/routes.js";
+import QuestionsRoutes from "./Kanbas/Questions/routes.js";
+import QuizzesRoutes from "./Kanbas/Quizzes/routes.js";
 import Lab5 from "./Lab5/index.js";
 import UserRoutes from "./Users/routes.js";
 
@@ -43,7 +46,10 @@ UserRoutes(app);
 CourseRoutes(app);
 ModuleRoutes(app);
 AssignmentRoutes(app);
-QuizRoutes(app);
+QuizzesRoutes(app);
 Lab5(app);
 Hello(app);
+EnrollCourseRoutes(app);
+QuestionsRoutes(app);
+AnswersRoutes(app);
 app.listen(process.env.PORT || 4000)

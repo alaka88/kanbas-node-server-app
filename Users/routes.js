@@ -64,10 +64,19 @@ const profile = async (req, res) => {
     }
     res.json(currentUser);
   };
+
+  const updateUser = async (req, res) => {
+    const { userId } = req.params;
+    const status = await dao.updateUser(userId, req.body);
+    const currentUser = await dao.findUserById(userId);
+    req.session['currentUser'] = currentUser;
+    res.json(status);
+
+  };
 app.post("/api/users", createUser);
 app.get("/api/users", findAllUsers);
 app.get("/api/users/:userId", findUserById);
-
+app.put("/api/users/:userId", updateUser);
 app.delete("/api/users/:userId", deleteUser);
 app.post("/api/users/signup", signup);
 app.post("/api/users/signin", signin);
